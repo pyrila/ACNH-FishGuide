@@ -1,0 +1,173 @@
+body{
+    top:0;
+    left:0;
+    margin:0;
+    overflow-x:hidden;
+
+}
+
+#background{
+    top:0;
+    left:0;
+    margin:0;
+    width:100vw;
+    height:12vh;
+    position:sticky;
+    background-color: rgba(41, 171, 226, 0.53);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#logo{
+    width:32vw;
+    height:auto;
+}
+
+.peixe{
+    width:auto;
+    height:8vh;
+}
+
+p{
+    font-size:1.5vw;
+    font-family: "Fjalla One", sans-serif;
+    width:10vw;
+}
+
+#nookipedia{
+    width:3vw;
+    background-color:#29ABE2;
+    padding:0.6vw;
+    border-radius: 20px;
+}
+
+#container{
+    height:12vh;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position:relative;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#submeter{
+    font-family: "Fjalla One", sans-serif;
+    font-size:1vw;
+    width:5vw;
+    height:5vh;
+    border-radius: 20px;
+    background-color:#29ABE2;
+    text-decoration: none;
+    border:none;
+    color:white;
+    top:0;
+}
+
+h1{
+    position:relative;
+    font-family: "Fjalla One", sans-serif;
+    font-size:1.5vw;
+    color:rgba(41, 171, 226, 0.53);
+}
+
+#fTitle{
+    float:left;
+    left:10vw;
+}
+
+#sTitle{
+    float:right;
+    right:10vw;
+    text-align: right;
+}
+
+#botoes{
+    width:80vw;
+    height:8vh;
+    margin:10vh 10vw;
+}
+
+#categorias{
+    float:left;
+    position:relative;
+    width:40vw;
+    height:8vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#sorts{
+    float:right;
+    position:relative;
+    width:20vw;
+    height:8vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+button{
+    font-family: "Fjalla One", sans-serif;
+    font-size:1.6vw;
+    width:9vw;
+    height:6vh;
+    border-radius: 10px;
+    background-color:#29ABE2;
+    border:none;
+    color:white;
+    top:0;
+}
+
+button:hover{
+    cursor:pointer;
+    background-color:rgba(41, 171, 226, 0.53);
+}
+
+#submeter:hover{
+    cursor:pointer;
+}
+
+#pesquisar{
+    width:20vw;
+    height:5vh;
+    border-radius: 10px;
+    background-color:white;
+    text-decoration: none;
+    border:none;
+    color:grey;
+    top:0;
+}
+
+#linha_titulo{
+    width:80vw;
+    height:10vh;
+    margin: 4vh 10vw;
+    background-color: rgba(179, 236, 245, 0.48);
+    border-radius: 20px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position:relative;
+    justify-content: space-around;
+    align-items: center;
+    color:#29ABE287;
+}
+
+.linha_peixe{
+    width:80vw;
+    height:10vh;
+    margin: 2vh 10vw;
+    background-color: rgba(41, 171, 226, 0.53);
+    border-radius: 20px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position:relative;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+
+}
